@@ -38,19 +38,19 @@ export const Skills = () => {
                         <p>Understand the market, define the audience, and ideate potential solutions. Discovering what makes us Human!!<br></br> Establishing usability, meet accessibility needs and ensure a delightful solution through heuristic evaluation</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="m1" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="m2" />
                                 <h5>Brand Identity</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="m3" />
                                 <h5>Logo Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="m1" />
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>
@@ -58,7 +58,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="cs" />
     </section>
   )
 }
